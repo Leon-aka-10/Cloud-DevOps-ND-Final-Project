@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+[![chrisleon10](https://circleci.com/gh/chrisleon10/Cloud-DevOps-ND-Final-Project.svg?style=svg)](https://app.circleci.com/pipelines/github/Leon-aka-10)
+
+Operationalizing microservices-ml-kubernetes
 
 ## Project Overview
 
