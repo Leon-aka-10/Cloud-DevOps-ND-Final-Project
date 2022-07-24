@@ -51,7 +51,14 @@ source .devops/bin/activate
 2. Then you can apply and restart after the above configuration has been done.
 #### Setup and Configure Kubernetes locally
 1. On your Docker desktop you can enable kubernetes on it and apply and restart docker.
-2. Then you can install kubectl to enable you interact with kubernetes.
+2. Then you can install kubectl to enable you interact with kubernetes. You can install kubectl with the command below.
+3. $ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+
 #### Create Flask app in Container
 1. Simply a docker build command or running your created docker bash script.
-* Run via kubectl
+2. $ docker build -t my-python-app . 
+3. my-python-app as the image tag 
+  
+#### Run via kubectl
+1. For detailed view of version run $ kubectl version --client --output=yaml
+  
