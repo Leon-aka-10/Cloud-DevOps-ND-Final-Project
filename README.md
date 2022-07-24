@@ -1,4 +1,4 @@
-[![chrisleon10](https://circleci.com/gh/chrisleon10/Cloud-DevOps-ND-Final-Project.svg?style=svg)](https://app.circleci.com/pipelines/github/Leon-aka-10)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Leon-aka-10)
 
 Operationalizing microservices-ml-kubernetes
 
