@@ -46,7 +46,12 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
+#### Setup and Configure Docker locally
+1. Download and install docker desktop on system and integrate it with wsl2(For window users)
+2. Then you can apply and restart after the above configuration has been done.
+#### Setup and Configure Kubernetes locally
+1. On your Docker desktop you can enable kubernetes on it and apply and restart docker.
+2. Then you can install kubectl to enable you interact with kubernetes.
+#### Create Flask app in Container
+1. Simply a docker build command or running your created docker bash script.
 * Run via kubectl
